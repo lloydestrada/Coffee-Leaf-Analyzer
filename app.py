@@ -38,7 +38,9 @@ recommendations = {
     "healthy_medium": "Moderate stress detected. Monitor regularly for emerging symptoms.",
     "healthy_low": "Mild stress detected. Maintain consistent care and nutrients."
 }
-
+@app.route('/')
+def home():
+    return "Hello from Flask on Render!"
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -175,8 +177,6 @@ def process_image():
     return send_file(img_byte_arr, mimetype='image/png')
 
 if __name__ == '__main__':
-    import os
-
-if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 10000)) 
     app.run(host='0.0.0.0', port=port)
+
