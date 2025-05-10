@@ -10,6 +10,7 @@ from tensorflow.keras.preprocessing import image as keras_image
 from flask_cors import CORS
 import os
 
+
 app = Flask(__name__)
 CORS(app)
 
@@ -38,9 +39,7 @@ recommendations = {
     "healthy_medium": "Moderate stress detected. Monitor regularly for emerging symptoms.",
     "healthy_low": "Mild stress detected. Maintain consistent care and nutrients."
 }
-@app.route('/')
-def home():
-    return "Hello from Flask on Render!"
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -177,7 +176,9 @@ def process_image():
     return send_file(img_byte_arr, mimetype='image/png')
 
 if __name__ == '__main__':
+    from waitress import serve
     port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    serve(app, host='0.0.0.0', port=port)
+
 
 
