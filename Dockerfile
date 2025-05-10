@@ -18,10 +18,10 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Set environment variables
-ENV PORT=5000
+ENV PORT=8050
 
 # Expose the port
-EXPOSE 5000
+EXPOSE 8050
 
 # Run the app
 CMD ["python", "app.py"]
