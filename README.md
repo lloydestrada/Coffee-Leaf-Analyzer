@@ -1,4 +1,4 @@
-# 🍃 Coffee Leaf Analyzer: Nutritional Stress Severity and Nutrient Deficiency Classification using CNNs
+# Coffee Leaf Analyzer: Nutritional Stress Severity and Nutrient Deficiency Classification using CNNs
 
 > **Authors**:  
 John Aries U. Salvador¹, John Lloyd A. Estrada², Marc P. Laureta³  
@@ -7,7 +7,7 @@ John Aries U. Salvador¹, John Lloyd A. Estrada², Marc P. Laureta³
 
 ---
 
-## 📄 Abstract
+## Abstract
 
 This project presents a **deep learning-based solution** to classify **nutrient deficiencies (N, P, K)** and **stress severity levels** in coffee leaves using **custom Convolutional Neural Networks (CNNs)**.
 
@@ -18,9 +18,9 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 
 ---
 
-## 📊 Highlights
+## Highlights
 
-### ✅ Key Features
+### Key Features
 - Dual CNN architecture for:
   - Nutrient deficiency detection
   - Stress severity classification
@@ -31,7 +31,7 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 - **Web-based application** with real-time leaf classification and visual feedback
 - **Deployment**: Cloud-hosted Flask application using TensorFlow backend
 
-### 🧠 Model Details
+### Model Details
 - **Activation Functions**: ReLU (hidden layers), Softmax (output)
 - **Regularization**: Batch normalization, dropout, L2 regularization
 - **Training Enhancements**: Data augmentation, cosine learning rate decay
@@ -39,7 +39,7 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 
 ---
 
-## 🔬 Dataset
+## Dataset
 
 - Sourced from **Kaggle** for nutrient classification (4 classes)
 - Custom-generated stress dataset via image processing pipeline
@@ -51,7 +51,7 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 
 ---
 
-## 📈 Performance
+## Performance
 
 ### Nutrient Deficiency Model
 - **Test Accuracy**: 95.44%
@@ -69,9 +69,9 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 
 ---
 
-## 🖥️ System Design
+## System Design
 
-### 🔁 Workflow
+### Workflow
 1. **Upload** coffee leaf image via web UI
 2. **Preprocessing** (resize, normalize)
 3. **Dual model inference**
@@ -79,7 +79,7 @@ This project presents a **deep learning-based solution** to classify **nutrient 
    - Stress severity detection
 4. **Output**: Predictions + highlighted stress areas + care recommendations
 
-### 🌐 Web Application
+### Web Application
 - **Backend**: Flask + TensorFlow
 - **Frontend**: HTML, CSS, JS
 - **Libraries**: OpenCV, PIL
@@ -87,7 +87,7 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ```bash
 # Clone the repo
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## 📬 Contact
+## Contact
 
 For inquiries or collaboration, contact:
 
@@ -113,7 +113,7 @@ For inquiries or collaboration, contact:
 
 ---
 
-## 🌱 Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 
@@ -124,16 +124,16 @@ Special thanks to:
 
 ---
 
-## ⭐ Future Work
+## Future Work
 
-- 🔍 Incorporate **attention mechanisms (e.g., CBAM or SE blocks)** for more precise classification
-- 📈 Expand the dataset to include **secondary nutrient and micronutrient deficiencies**
-- 📱 Develop a **mobile-friendly version** for offline field diagnosis
-- 🌿 Extend the model to support **other agricultural crops**
+- Incorporate **attention mechanisms (e.g., CBAM or SE blocks)** for more precise classification
+- Expand the dataset to include **secondary nutrient and micronutrient deficiencies**
+- Develop a **mobile-friendly version** for offline field diagnosis
+- Extend the model to support **other agricultural crops**
 
 ---
 
-## 📷 Sample Output
+## Sample Output
 
 ![image](https://github.com/user-attachments/assets/01ad5649-0dab-40e5-bd0e-5166ac961fc8)
 
@@ -142,7 +142,7 @@ Special thanks to:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 coffee-leaf-analyzer/
@@ -159,10 +159,10 @@ coffee-leaf-analyzer/
 ```
 
 
-## 🔗 Related Links
+## Related Links
 
-- 📂 [CoLeaf Dataset on Kaggle](https://www.kaggle.com/datasets/janmejaybhoi/coffee-leaf-dataset)
-- 🧠 [TensorFlow Documentation](https://www.tensorflow.org/)
+- [CoLeaf Dataset on Kaggle](https://www.kaggle.com/datasets/janmejaybhoi/coffee-leaf-dataset)
+- [TensorFlow Documentation](https://www.tensorflow.org/)
 
 ---
 
