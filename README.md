@@ -17,7 +17,18 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 - Achieved **95% accuracy** for nutrient classification and **85% for stress severity**.
 
 ---
+## 📄 Research Paper
 
+This project is based on our undergraduate research paper:
+
+> **Title**: Nutritional Stress Severity and Nutrient Deficiency Classification in Coffee Leaves Using Convolutional Neural Networks  
+> **Authors**: John Aries U. Salvador, John Lloyd A. Estrada, Marc P. Laureta  
+> **Institution**: College of Informatics and Computing Studies, New Era University  
+> 📄 **[View Paper on Google Docs](https://docs.google.com/document/d/13ZTcPESsC79hKdnHvVFM8RoXpGG9CIRgvUORB0G0jRY/edit?usp=sharing)**
+
+If you find this work useful, feel free to explore, cite, or collaborate!
+
+---
 ## Highlights
 
 ### Key Features
