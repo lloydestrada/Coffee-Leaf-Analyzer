@@ -17,7 +17,7 @@ This project presents a **deep learning-based solution** to classify **nutrient 
 - Achieved **95% accuracy** for nutrient classification and **85% for stress severity**.
 
 ---
-## 📄 Research Paper
+##  Research Paper
 
 This project is based on our undergraduate research paper:
 
