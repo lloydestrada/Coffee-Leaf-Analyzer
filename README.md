@@ -65,18 +65,14 @@ If you find this work useful, feel free to explore, cite, or collaborate!
 ## Performance
 
 ### Nutrient Deficiency Model
-- **Test Accuracy**: 95.44%
-- **Precision & Recall**:
-  - Healthy: P=1.00, R=1.00
-  - Nitrogen: P=0.99, R=0.91
-  - Potassium: P=1.00, R=0.92
-  - Phosphorus: P=0.88, R=0.99
+- **Test Accuracy**: 94.99%
+- **Training Accuracy**: 99.98%
+- **Validation Accuracy**: 86.77%
 
 ### Stress Severity Model
 - **Test Accuracy**: 85.22%
-- **Training Accuracy**: 92.77%
-- **Validation Accuracy**: 91.90%
-- Shows robust generalization with minimal overfitting
+- **Training Accuracy**: 95.19%
+- **Validation Accuracy**: 94.38%
 
 ---
 
