@@ -149,7 +149,7 @@ Special thanks to:
 
 ---
 
-## Repository Structure
+## Repository Structures
 
 ```text
 coffee-leaf-analyzer/
